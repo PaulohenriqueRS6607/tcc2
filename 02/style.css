@@ -1,0 +1,174 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1999px;
+    padding: 0 100px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+
+nav a {
+    font-family: Blinker, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #626361;
+    font-weight: 500;
+    font-size: 18.95px;
+    transition: 0.3s;
+    margin-top: 29px 0;
+}
+
+nav a:hover {
+    color: #00ABFF;
+}
+
+body {
+    background-image: url('/01/imgs/fundo onda.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slogan {
+    position: absolute;
+    top: 18px;
+    right: 726.73px;
+    bottom: 355.48px;
+    left: px;
+    width: 500px;
+}
+
+.Cadastro-container {
+    position: absolute;
+    top: 192px;
+    right: 155.33px;
+    bottom: 377.91px;
+    text-align: center;
+    max-width: 300px;
+}
+
+h1 {
+    font-family: Inria Sans, sans-serif;
+
+    font-size: 46px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+.button-group {
+    margin-top: 18px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+#button02 {
+    width: 120px;
+    height: 47px;
+    background-color: #00ABFF;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#button {
+    width: 120px;
+    height: 47px;
+    background-color: #ffff;
+    color: #626361;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+#button02:hover {
+    background-color: #005f99;
+}
+
+@media (min-width: 1024px) {
+    header {
+        padding: 0 60px;
+    }
+
+    .logo img {
+        width: 250px;
+    }
+
+    nav ul {
+        gap: 80px;
+    }
+
+    nav a {
+        font-size: 18.95px;
+    }
+
+    .slogan {
+        position: absolute;
+        top: 20px;
+        left: 50px;
+        width: 600px;
+        right: auto;
+    }
+
+    .Cadastro-container {
+        position: absolute;
+        top: 250px;
+        right: 100px;
+        left: auto;
+        max-width: 400px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    input {
+        width: 70%;
+        font-size: 16px;
+    }
+
+    .button-group {
+        gap: 30px;
+    }
+
+    #button02 {
+        width: 150px;
+        height: 55px;
+        font-size: 18px;
+    }
+
+    #button {
+        width: 150px;
+        height: 55px;
+        font-size: 18px;
+    }
+}
