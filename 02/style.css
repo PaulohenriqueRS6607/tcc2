@@ -2,18 +2,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1999px;
-    padding: 0 100px;
+    max-width: 100%;
+    padding: 0 20px;
 }
 
 .logo img {
-    width: 200px;
+    width: 150px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 60px;
+    gap: 20px;
 }
 
 nav a {
@@ -22,9 +22,9 @@ nav a {
     text-decoration: none;
     color: #626361;
     font-weight: 500;
-    font-size: 18.95px;
+    font-size: 16px;
     transition: 0.3s;
-    margin-top: 29px 0;
+    margin-top: 10px;
 }
 
 nav a:hover {
@@ -38,36 +38,34 @@ body {
     background-attachment: fixed;
     height: 100%;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 .slogan {
     position: absolute;
     top: 18px;
-    right: 726.73px;
-    bottom: 355.48px;
-    left: px;
-    width: 500px;
+    right: 20px;
+    width: 300px;
 }
 
 .Cadastro-container {
     position: absolute;
-    top: 192px;
-    right: 155.33px;
-    bottom: 377.91px;
+    top: 150px;
+    right: 20px;
     text-align: center;
-    max-width: 300px;
+    max-width: 90%;
 }
 
 h1 {
     font-family: Inria Sans, sans-serif;
-
-    font-size: 46px;
+    font-size: 36px;
     margin-bottom: 20px;
     color: #333;
 }
 
 input {
-    width: 80%;
+    width: 90%;
     padding: 10px;
     margin: 12px 0;
     border: 1px solid #ccc;
@@ -75,43 +73,91 @@ input {
     font-size: 14px;
 }
 
-
 .button-group {
     margin-top: 18px;
     display: flex;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
 }
 
 #button02 {
-    width: 120px;
-    height: 47px;
+    width: 100px;
+    height: 40px;
     background-color: #00ABFF;
     color: #ffffff;
     padding: 10px;
     border: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
     font-weight: bold;
 }
 
 #button {
-    width: 120px;
-    height: 47px;
+    width: 100px;
+    height: 40px;
     background-color: #ffff;
     color: #626361;
     padding: 10px;
     border: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
     font-weight: bold;
 }
 
-
 #button02:hover {
     background-color: #005f99;
+}
+
+@media (min-width: 768px) {
+    header {
+        padding: 0 40px;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    nav ul {
+        gap: 40px;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    .slogan {
+        top: 20px;
+        right: 50px;
+        width: 400px;
+    }
+
+    .Cadastro-container {
+        top: 200px;
+        right: 50px;
+        max-width: 400px;
+    }
+
+    h1 {
+        font-size: 46px;
+    }
+
+    input {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .button-group {
+        gap: 20px;
+    }
+
+    #button02,
+    #button {
+        width: 120px;
+        height: 47px;
+        font-size: 16px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -124,7 +170,7 @@ input {
     }
 
     nav ul {
-        gap: 80px;
+        gap: 60px;
     }
 
     nav a {
@@ -132,7 +178,6 @@ input {
     }
 
     .slogan {
-        position: absolute;
         top: 20px;
         left: 50px;
         width: 600px;
@@ -140,7 +185,6 @@ input {
     }
 
     .Cadastro-container {
-        position: absolute;
         top: 250px;
         right: 100px;
         left: auto;
@@ -160,12 +204,7 @@ input {
         gap: 30px;
     }
 
-    #button02 {
-        width: 150px;
-        height: 55px;
-        font-size: 18px;
-    }
-
+    #button02,
     #button {
         width: 150px;
         height: 55px;
