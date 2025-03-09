@@ -32,7 +32,7 @@ nav a:hover {
 }
 
 body {
-    background-image: url('/01/imgs/fundo onda.svg');
+    background-image: url('/02/imgs/fundo onda.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -210,4 +210,5 @@ input {
         height: 55px;
         font-size: 18px;
     }
+
 }
